@@ -1,0 +1,44 @@
+body {
+  position: absolute;
+  top: 200px;
+  position: relative;
+  text-align: center;
+  font-family: Arial;
+}
+
+#container {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-left: 500px;
+  padding: 25px;
+  width: 30%;
+  background-color: rgba(128, 180, 204, 0.3);
+}
+
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #4070f4;
+}
+
+#decrement {
+  color: white;
+  background: red;
+  border: 2px solid red;
+  font-weight: 1rem;
+}
+
+#increment {
+  color: white;
+  background: green;
+  border: 2px solid green;
+}
+
+#reset {
+  color: white;
+  background: grey;
+  border: 2px solid grey;
+}
+#counter {
+  font-size: 34px;
+  margin: 20px;
+}
